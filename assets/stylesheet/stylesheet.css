@@ -1,0 +1,816 @@
+main {
+  height: 100vh;
+  background-color: rgb(227, 218, 243);
+}
+main .ads-txt {
+  height: 50px;
+  background-color: #f9f1f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .ads-txt > p {
+  text-align: center;
+  color: #55328b;
+}
+main #head-top {
+  background-image: url(../img/hero-header-bakery.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+main #head-top .row {
+  position: relative;
+}
+main #head-top .row > * {
+  width: 100%;
+  padding: 20px 50px;
+}
+main #head-top .row > header > .row > * {
+  height: 110px;
+  color: #55328b;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+main #head-top .row > header > .row > figure {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+main #head-top .row > header > .row > nav {
+  width: 60%;
+}
+main #head-top .row > header > .row > nav .row {
+  height: 100%;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+main #head-top .row > header > .row > nav .row > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  position: relative;
+}
+main #head-top .row > header > .row > nav .row > li > a {
+  text-transform: capitalize;
+  position: relative;
+}
+main #head-top .row > header > .row > nav .row > li > a:hover::after {
+  width: 100%;
+  bottom: -10px;
+  opacity: 1;
+}
+main #head-top .row > header > .row > nav .row > li > a::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 2px;
+  background-color: #55328b;
+  opacity: 0;
+  bottom: 20px;
+  transition: 0.4s;
+}
+main #head-top .row > header > .row > div {
+  width: 20%;
+  display: flex;
+}
+main #head-top .row > header > .row > div > .row {
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: end;
+}
+main #head-top .row > header > .row > div > .row > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: end;
+}
+main #head-top .row > header > .row > div > .row > a > span {
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #head-top .row > header > .row > div > .row > a > span:hover::after {
+  width: 40%;
+  bottom: 15px;
+  opacity: 1;
+}
+main #head-top .row > header > .row > div > .row > a > span::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  width: 40%;
+  height: 2px;
+  background-color: #55328b;
+  opacity: 0;
+  bottom: 50px;
+  transition: 0.4s;
+}
+main #head-top .row > header > .row > div > .row > a > i {
+  font-size: 20px;
+  padding-left: 20px;
+}
+main #head-top .row > header > .row > div > .row > a > i:hover::after {
+  width: 10%;
+  bottom: 15px;
+  opacity: 1;
+}
+main #head-top .row > header > .row > div > .row > a > i::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  width: 10%;
+  height: 2px;
+  background-color: #55328b;
+  opacity: 0;
+  bottom: 50px;
+  transition: 0.4s;
+}
+main #head-top .row > section {
+  padding: 150px 150px;
+}
+main #head-top .row > section > .row {
+  width: 50%;
+  min-height: 100px;
+}
+main #head-top .row > section > .row > span {
+  color: rgb(138, 137, 137);
+  text-transform: capitalize;
+}
+main #head-top .row > section > .row > p {
+  color: rgb(138, 137, 137);
+}
+main #head-top .row > section > .row > h1 {
+  color: #55328b;
+  font-size: 5vw;
+  text-transform: capitalize;
+  font-family: "Dancing Script", sans-serif;
+  font-weight: bolder;
+}
+main #head-top .row > section > .row > div > a {
+  width: 200px;
+  height: 50px;
+  display: flex;
+}
+main #head-top .row > section > .row > div > a > span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f9f1f2;
+  text-transform: uppercase;
+  color: black;
+  transition: 0.4s;
+  font-size: 12px;
+}
+main #head-top .row > section > .row > div > a > span:hover {
+  background-color: #55328b;
+  color: rgb(255, 255, 255);
+}
+main .product {
+  width: 100%;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+}
+main .product > .row {
+  min-height: 550px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+main .product > .row .lat1 {
+  width: 30%;
+}
+main .product > .row .lat1 .row {
+  padding: 100px;
+}
+main .product > .row .lat1 .row > span {
+  text-transform: uppercase;
+  color: gray;
+}
+main .product > .row .lat1 .row > h2 {
+  margin: 30px 0;
+  color: #55328b;
+  font-size: 1.9vw;
+  font-family: "Dancing Script", sans-serif;
+}
+main .product > .row .lat1 .row > div {
+  width: 200px;
+  height: 50px;
+  display: flex;
+}
+main .product > .row .lat1 .row > div > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #55328b;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+  font-size: 12px;
+}
+main .product > .row .lat1 .row > div > a:hover {
+  background-color: white;
+  color: black;
+}
+main .product > .row .lat2 {
+  width: 70%;
+}
+main .product > .row .lat2 .row {
+  padding: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main .product > .row .lat2 .row > figure {
+  width: 550px;
+  padding: 0 20px;
+  position: relative;
+}
+main .product > .row .lat2 .row > figure > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main > .wedding > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .wedding > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 60px;
+  color: #55328b;
+  font-family: "Dancing Script", sans-serif;
+  font-weight: bold;
+}
+main > .wedding > .row {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  padding: 40px;
+}
+main > .wedding > .row > figure {
+  position: relative;
+  display: flex;
+  padding: 40px;
+}
+main > .wedding > .row > figure:nth-of-type(1) {
+  width: 50%;
+}
+main > .wedding > .row > figure:nth-of-type(1):hover > .pic1, main > .wedding > .row > figure:nth-of-type(1):hover > figcaption > span, main > .wedding > .row > figure:nth-of-type(1):hover > figcaption > h2, main > .wedding > .row > figure:nth-of-type(1):hover > figcaption > a {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+main > .wedding > .row > figure:nth-of-type(1) > img {
+  width: 100%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+main > .wedding > .row > figure:nth-of-type(1) .pic1 {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transition: 1s;
+  padding: 40px;
+}
+main > .wedding > .row > figure:nth-of-type(1) > figcaption {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+main > .wedding > .row > figure:nth-of-type(1) > figcaption > span {
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+}
+main > .wedding > .row > figure:nth-of-type(1) > figcaption > h2 {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+}
+main > .wedding > .row > figure:nth-of-type(1) > figcaption > a {
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #55328b;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .wedding > .row > figure:nth-of-type(2) {
+  width: 50%;
+}
+main > .wedding > .row > figure:nth-of-type(2):hover > .pic2, main > .wedding > .row > figure:nth-of-type(2):hover > figcaption > span, main > .wedding > .row > figure:nth-of-type(2):hover > figcaption > h2, main > .wedding > .row > figure:nth-of-type(2):hover > figcaption > a {
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+main > .wedding > .row > figure:nth-of-type(2) > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  display: flex;
+}
+main > .wedding > .row > figure:nth-of-type(2) > .pic2 {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transition: 1s;
+  padding: 40px;
+}
+main > .wedding > .row > figure:nth-of-type(2) > .pic2:hover {
+  opacity: 1;
+}
+main > .wedding > .row > figure:nth-of-type(2) > figcaption {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+main > .wedding > .row > figure:nth-of-type(2) > figcaption > span {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+}
+main > .wedding > .row > figure:nth-of-type(2) > figcaption > h2 {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+}
+main > .wedding > .row > figure:nth-of-type(2) > figcaption > a {
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #55328b;
+  font-size: 20px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .shop {
+  width: 100%;
+  padding: 0 60px;
+}
+main > .shop > .container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 100px auto;
+}
+main > .shop > .container > .shop1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+main > .shop > .container > .shop1 > h2 {
+  color: #55328b;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 2.5vw;
+}
+main > .shop > .container > .shop1 > p {
+  color: gray;
+}
+main > .shop > .container > .shop1 > a {
+  width: 150px;
+  height: 40px;
+  background-color: #55328b;
+  color: white;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .shop > .container > .shop1 > a:hover {
+  background-color: #f9f1f2;
+  color: #55328b;
+}
+main > .shop > .container > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+}
+main > .shop > .container > div img {
+  width: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .tell-us {
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  position: relative;
+}
+main .tell-us > figure {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+main .tell-us > figure > img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+main .tell-us > figure .drak {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(142deg, rgba(128, 0, 128, 0.253), rgba(131, 47, 131, 0.507), rgba(85, 5, 85, 0.801));
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main .tell-us > figure > figcaption {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+main .tell-us > figure > figcaption > h2 {
+  width: 35%;
+  font-size: 50px;
+  position: absolute;
+  color: #ffffff;
+  text-transform: capitalize;
+  top: -600px;
+  left: 100px;
+}
+main .tell-us > figure > figcaption > span {
+  width: 10%;
+  font-size: 80px;
+  position: absolute;
+  text-align: center;
+  color: #f9f1f2;
+  right: 60px;
+  top: -600px;
+}
+main .tell-us > figure > figcaption > p {
+  position: absolute;
+  font-size: 20px;
+  color: #f9f1f2;
+  right: 90px;
+  top: -250px;
+  width: 30%;
+}
+main .sharing {
+  padding: 60px;
+}
+main .sharing > .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 30px;
+  grid-template-areas: "d1 d2 d2 d3" "  d4 d5 d6 d7";
+}
+main .sharing > .container > div {
+  background-color: rgba(128, 0, 128, 0.365);
+}
+main .sharing > .container > div > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .sharing > .container > div:nth-of-type(1) {
+  grid-area: d1;
+}
+main .sharing > .container > div:nth-of-type(2) {
+  width: 100%;
+  grid-area: d2;
+  background-color: rgb(240, 237, 245);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  position: relative;
+}
+main .sharing > .container > div:nth-of-type(2) > span {
+  text-align: center;
+  width: 50%;
+  font-size: 10px;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+}
+main .sharing > .container > div:nth-of-type(2) > h2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Dancing Script", sans-serif;
+  color: #55328b;
+  font-size: 3vw;
+  position: absolute;
+  top: 150px;
+}
+main .sharing > .container > div:nth-of-type(2) a {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #55328b;
+  color: white;
+  border-radius: 8px;
+  margin: 0;
+  position: absolute;
+  top: 250px;
+}
+main .sharing > .container > div:nth-of-type(2) a > i {
+  padding: 9px;
+}
+main .sharing > .container > div:nth-of-type(2) a:hover {
+  background-color: #f9f1f2;
+  color: #55328b;
+}
+main .sharing > .container > div:nth-of-type(3) {
+  grid-area: d3;
+}
+main .sharing > .container > div:nth-of-type(4) {
+  grid-area: d4;
+}
+main .sharing > .container > div:nth-of-type(5) {
+  grid-area: d5;
+}
+main .sharing > .container > div:nth-of-type(6) {
+  grid-area: d6;
+}
+main .sharing > .container > div:nth-of-type(7) {
+  grid-area: d7;
+}
+main > footer {
+  width: 100%;
+}
+main > footer > .row > div:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+}
+main > footer > .row > div:nth-of-type(1) > figure {
+  width: 100%;
+  position: relative;
+}
+main > footer > .row > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  display: flex;
+}
+main > footer > .row > div:nth-of-type(1) > figure > figcaption {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main > footer > .row > div:nth-of-type(1) > figure > figcaption > span {
+  font-size: 10px;
+  position: absolute;
+  top: -350px;
+  left: 250px;
+  transform: translate(0, -50%);
+  text-align: center;
+  color: #f9f1f2;
+}
+main > footer > .row > div:nth-of-type(1) > figure > figcaption > h2 {
+  font-size: 50px;
+  position: absolute;
+  top: -250px;
+  left: 250px;
+  transform: translate(0, -50%);
+  color: #f9f1f2;
+  text-transform: capitalize;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+main > footer > .row > div:nth-of-type(1) > figure > figcaption > a {
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #55328b;
+  font-size: 20px;
+  position: absolute;
+  top: -150px;
+  left: 350px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9f1f2;
+}
+main > footer > .row > div:nth-of-type(1) > figure > figcaption > a:hover {
+  background-color: #f9f1f2;
+  color: #55328b;
+}
+main > footer > .row > div:nth-of-type(2) {
+  width: 100%;
+  height: 100%;
+}
+main > footer > .row > div:nth-of-type(2) .row > .logo {
+  padding: 20px 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+}
+main > footer > .row > div:nth-of-type(2) .row > .logo > figure {
+  width: 10%;
+}
+main > footer > .row > div:nth-of-type(2) .row > .logo > figure > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main > footer > .row > div:nth-of-type(2) .row > .logo h2 {
+  color: #55328b;
+  font-family: "Dancing Script", sans-serif;
+  position: absolute;
+  right: 10%;
+  font-size: 40px;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection {
+  width: 100%;
+  padding: 20px 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection > nav {
+  width: 50%;
+  position: relative;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection > nav .row {
+  height: 100%;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection > nav .row > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  position: relative;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection > nav .row > li > a {
+  text-transform: capitalize;
+  position: relative;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection > nav .row > li > a:hover {
+  color: #301061;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection .box {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection .box > input {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  right: 250px;
+  border: 1px solid rgb(165, 165, 165);
+  padding: 0 1em;
+  font-size: 18px;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection .box a {
+  position: absolute;
+  right: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #301061;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > footer > .row > div:nth-of-type(2) .row > .conection .box a:hover {
+  background-color: #f9f1f2;
+  color: #55328b;
+}
+main > footer > .row > div:nth-of-type(2) .row > .social {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+}
+main > footer > .row > div:nth-of-type(2) .row > .social > p {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > footer > .row > div:nth-of-type(2) .row > .social .row {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -145px;
+}
+main > footer > .row > div:nth-of-type(2) .row > .social .row i {
+  font-size: 30px;
+  padding: 10px;
+  color: #301061;
+}/*# sourceMappingURL=stylesheet.css.map */
